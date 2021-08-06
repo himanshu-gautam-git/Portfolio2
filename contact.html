@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta tags starts-->
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="himanshu,himanshugautam,himanshu gautam,freelancer,web developer,portfolio,coder,software developer,full stack developer,fullstack,full-stack,developer">
+    <meta property="og:image"
+        content="https://github.com/himanshu-gautam-git/Portfolio-HimanshuGautam-CYGRP-Assignment/blob/main/images/img%20used.jpeg">
+    <meta property="og:title" content="Himanshu Gautam | Web Developer | Software Developer">
+    <meta property="og:description" content="Energetic Fresher having interest in web developement, good knowledge in computer
+        subjects, and ability to update and learn new concepts quickly and strong desire to work in the software field.
+        Motivated, Self Starter and want to excel in everything I do through passion towards work. Troubleshooter,
+        ability to work in any environment, and possess good analytical skills.">
+    <!--meta tags ends-->
+    <!--cdn links starts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!--cdn links ends-->
+    <!--icon in title bar-->
+    <link rel="icon" href="images/icon.jpg" type="image/icon type">
+    <title>Contact</title>
+    <!--Internal css starts-->
+    <style>
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #28a745;
+            border-radius: 20px;
+        }
+
+        label {
+            color: #28a745;
+        }
+
+        hr {
+            background-color: #28a745;
+            width: 80%;
+            height: 1px;
+            margin-top: 50px;
+        }
+
+        th {
+            background-color: #28a745;
+            color: #ffffff;
+            border-right: 1px solid #ffffff;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+        }
+
+        .inp {
+            border-style: solid;
+            border-radius: 20px;
+            padding: 8px;
+            width: 100%;
+        }
+
+        .nav-item:hover {
+            border-bottom: 3px solid #28a745;
+        }
+    </style>
+    <!--internal css ends-->
+</head>
+
+<body>
+    <!--nav bar starts-->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-success">Himanshu</span>Gautam</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <!--Internal linkings in a page on navbar starts-->
+                <a href="index.html#about" class="nav-item nav-link">About</a>
+                <a href="index.html#skill" class="nav-item nav-link">Skills</a>
+                <a href="index.html#edu" class="nav-item nav-link">Education and Projects</a>
+                <!--Internal linkings in a page ends-->
+                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-menu btn-success d-none d-lg-block" style="color: #ffffff;">Hire
+                Me</a>
+        </div>
+    </nav>
+    <!--nav bar ends-->
+    <!--contact me section starts-->
+    <div class="container-fluid" style="padding-top: 10%;">
+        <div class="container">
+            <div class="align-items-center justify-content-center">
+                <h1 class="text-success text-center">CONTACT ME</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <!--form starts-->
+                    <form onsubmit="return false">
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-6">
+                                <label for="Name">Name*</label>
+                                <input id="iname" type="text" name="name" placeholder="Your Name" class="inp" required>
+                            </div>
+                            <div class="form-col col-6" style="padding-left:5%">
+                                <label for="Surname">Surname*</label>
+                                <input id="lname" type="text" name="name" placeholder="Your Surname" class="inp"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-6">
+                                <label for="Date of Birth">Date of Birth*</label>
+                                <input id="dob" type="date" name="dob" class="inp" required>
+                            </div>
+                            <div class="form-col col-6" style="padding-left:5%">
+                                <label for="Contact">Contact*</label><br />
+                                <input id="tel" type="tel" placeholder="Your Contact" name="contact" class="inp"
+                                    pattern="[0-9]{10}" required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-12">
+                                <label for="Email">Email*</label>
+                                <input id="email" type="email" name="email" placeholder="Your Email" class="inp"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-6" style="padding-left:5%">
+                                <label for="Gender">Gender</label><br />
+                                <input type="radio" name="Gender" value="Male"> Male
+                                <input type="radio" name="Gender" value="Female"> Female
+                                <input type="radio" name="Gender" value="Others"> Others
+                            </div>
+                            <div class="form-col col-6">
+                                <label for="Attachement">Attach file*</label>
+                                <input type="file" name="Attachment" required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-12">
+                                <label for="Interests">Interests</label> <br />
+                                <input type="checkbox" name="Interests" value="HTML"> &nbsp HTML &nbsp
+                                <input type="checkbox" name="Interests" value="CSS"> CSS &nbsp
+                                <input type="checkbox" name="Interests" value="JAVASCRIPT"> JAVASCRIPT &nbsp
+                                <input type="checkbox" name="Interests" value="BOOTSTRAP"> BOOTSTRAP &nbsp
+                                <input type="checkbox" name="Interests" value="REACT"> REACT &nbsp
+                                <input type="checkbox" name="Interests" value="NODE"> NODE &nbsp
+                                <input type="checkbox" name="Interests" value=".NET"> .NET &nbsp
+                                <input type="checkbox" name="Interests" value="SALESFORCE"> SALESFORCE &nbsp
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-6">
+                                <label for="Rate">Rate</label></br>
+                                <input type="range" name="Rate" style="background-color:#28a745;width:70%" min="1"
+                                    max="5">
+                            </div>
+                            <div class="form-col col-auto">
+                                <label for="Color">Favourite Color*</label></br>
+                                <input id="color" type="color" style="width:200%" required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-12">
+                                <label for="Address">Address*</label>
+                                <input id="add" type="textarea" name="address" placeholder="Your Address" class="inp"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-12">
+                                <label for="Comments">Comments*</label>
+                                <textarea id="comm" name="address" placeholder="Add queries or reviews" class="inp"
+                                    rows="6" cols="50" required></textarea>
+                            </div>
+                        </div>
+                        <div class="align-items-center justify-content-center"
+                            style="color:#28a745;padding-left:30%;padding-right: 30%;">
+                            <marquee scrolldelay=60>All fields marked with asterisk (*) are mandatory.</marquee>
+                        </div>
+                        <div class="form-row" style="padding-top: 5%;">
+                            <div class="form-col col-12 align-items-center" style="text-align: center;">
+                                <button type="submit" class="btn btn-success" style="border-radius:20px;width:150px;"
+                                    onclick="myFunction()">Submit</button>
+                                <input type="reset" class="btn btn-success" style="border-radius:20px;width:150px;">
+                            </div>
+                        </div>
+                    </form>
+                    <!--form ends-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact me section ends-->
+    <!--horizontal rule-->
+    <hr />
+    <!--responses section starts-->
+    <div class="container-fluid" style="padding-top:2%;">
+        <div class="container">
+            <div class="align-items-center justify-content-center">
+                <h1 class="text-success text-center">Responses</h1>
+            </div>
+            <div class="align-items-center justify-content-center" style="padding-top: 5%;">
+                <!--table for adding responses from DOM manipulation-->
+                <table id="mytable">
+                    <tr>
+                        <th>Sr no.</th>
+                        <th>Full name</th>
+                        <th>D.O.B</th>
+                        <th>Contact</th>
+                        <th>Email</th>
+                        <th>Color</th>
+                        <th>Comments</th>
+                    </tr>
+                </table>
+                <!--table ends-->
+            </div>
+        </div>
+    </div>
+    <!--responses section ends-->
+    <!--footer starts-->
+    <footer style="padding-top: 5%;">
+        <div class="container-fluid bg-success text-white">
+            <div class="container text-center py-5">
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social mr-2" href="https://twitter.com/royalhimanshu20"
+                        target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/himanshu.gautam.1232/"
+                        target=_blank><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2"
+                        href="https://www.linkedin.com/in/himanshu-gautam-7b001b179/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="https://www.instagram.com/i_himanshu_gautam/"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="d-flex justify-content-center mb-3"
+                    onclick="alert('This part of website is still under construction.Please try again later')">
+                    <a class="text-white" href="#">Privacy</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Terms</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">FAQs</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Help</a>
+                </div>
+                <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Himanshu Gautam</a>. All
+                    Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Himanshu Gautam</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+    <!--external link for javascript-->
+    <script src="contact.js"></script>
+</body>
+
+</html>
